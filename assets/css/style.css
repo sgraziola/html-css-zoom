@@ -19,7 +19,7 @@ img{
 }
 /* #endregion common */
 
-/* #region main */
+/* #region grid */
 .wrapper {
     max-width: 100%;
     background-color: var(--zoom-bg);
@@ -69,11 +69,12 @@ img{
     padding: 0.25rem;
     border-radius: 5px;
 }
-/* #endregion main */
+/* #endregion grid */
 
-/* #region footer */
+/* #region playerbar */
 .playerbar{
     background-color: var(--zoom-playerbar);
+    color: var(--zoom-icon);
 }
 
 .d_flex{
@@ -82,10 +83,6 @@ img{
 
 .space_between{
     justify-content: space-between;
-}
-
-footer{
-    color: var(--zoom-icon);
 }
 
 .player,
@@ -115,10 +112,6 @@ footer{
     padding: 0.5rem 0;
 }
 
-footer i{
-    font-size: 1.5rem;
-}
-
 .angle i{
     font-size: 0.75rem;
 }
@@ -135,4 +128,4 @@ footer i{
     margin: -1rem -1rem;
     font-weight: bold;
 }
-/* #endregion footer */
+/* #endregion playerbar */
