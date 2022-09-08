@@ -1,8 +1,51 @@
 /* #region common */
-*{
-    margin: 0;  
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
+}
 
- /* #endregion common */
+:root {
+    --zoom-bg: #000000;
+    --zoom-playerbar: #222222;
+    --zoom-bg_icon: #4A4A4A;
+    --zoom-share: #4BC800;
+    --zoom-close: #E7272A;
+    --zoom-icon: #FFFFFF;
+}
+
+img{
+    max-width: 100%;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/* #endregion common */
+
+.wrapper {
+    max-width: 100%;
+    background-color: var(--zoom-bg);
+    height: 100vh;
+    color: white;
+}
+
+.container{
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-7{
+    width: calc(100% / 12 * 1.7);
+}
+
+.playerbar{
+    background-color: var(--zoom-playerbar);
+    height: 100px;
+}
