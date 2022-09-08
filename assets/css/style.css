@@ -17,16 +17,15 @@
 img{
     max-width: 100%;
 }
-/* 
-padding-right: 0.5rem;
-padding-bottom: 0.5rem; */
 /* #endregion common */
 
+/* #region main */
 .wrapper {
     max-width: 100%;
     background-color: var(--zoom-bg);
     height: 100vh;
     color: white;
+    position: relative;
 }
 
 .container{
@@ -46,11 +45,6 @@ padding-bottom: 0.5rem; */
     position: relative;
 }
 
-.playerbar{
-    background-color: var(--zoom-playerbar);
-    height: 100px;
-}
-
 .guest{
     padding-right: 0.5rem;
     padding-bottom: 1rem;
@@ -62,3 +56,67 @@ padding-bottom: 0.5rem; */
     padding: 0.4rem 0.3rem;
     background-color: rgba(128, 128, 128, 0.479);
 }
+
+.zoom_icons{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.zoom_icons span{
+    background-color: var(--zoom-bg_icon);
+    color: var(--zoom-icon);
+    padding: 0.25rem;
+    border-radius: 5px;
+}
+/* #endregion main */
+
+/* #region footer */
+.playerbar{
+    background-color: var(--zoom-playerbar);
+}
+
+.d_flex{
+    display: flex;
+}
+
+.space_between{
+    justify-content: space-between;
+}
+
+footer{
+    color: var(--zoom-icon);
+}
+.player,
+.end {
+    flex-grow: 1;
+    padding: 1rem 1rem
+}
+
+.chat{
+    flex-grow: 3;
+}
+
+.micro,
+.record{
+    flex-direction: column;
+    align-items: center;
+}
+
+.angle{
+    padding: 0rem 1rem;
+    align-self: center;
+}
+
+.playerbar span{
+    padding: 0.5rem 0;
+}
+
+footer i{
+    font-size: 1.5rem;
+}
+
+.angle i{
+    font-size: 0.75rem;
+}
+/* #endregion footer */
