@@ -78,6 +78,10 @@ img{
     color: var(--zoom-icon);
 }
 
+.playerbar i{
+    font-size: 1.5rem;
+}
+
 .d_flex{
     display: flex;
 }
@@ -128,5 +132,9 @@ img{
     padding: 0rem 1.5rem;
     margin: -1rem -1rem;
     font-weight: bold;
+}
+
+.share{
+    color: var(--zoom-share);
 }
 /* #endregion playerbar */
