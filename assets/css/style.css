@@ -87,20 +87,23 @@ img{
 footer{
     color: var(--zoom-icon);
 }
+
 .player,
 .end {
     flex-grow: 1;
-    padding: 1rem 1rem
+    padding: 1rem 1rem;
 }
 
 .chat{
     flex-grow: 3;
+    padding: 1rem 1rem;
+    justify-content: center;
 }
 
-.micro,
-.record{
+.micro {
     flex-direction: column;
     align-items: center;
+    padding: 0 0.5rem;
 }
 
 .angle{
@@ -118,5 +121,18 @@ footer i{
 
 .angle i{
     font-size: 0.75rem;
+}
+
+.end{
+    justify-content: flex-end;
+}
+
+.close{
+    background-color:var(--zoom-bg_icon);
+    color:var(--zoom-close);
+    align-items: center;
+    padding: 0rem 1.5rem;
+    margin: -1rem -1rem;
+    font-weight: bold;
 }
 /* #endregion footer */
